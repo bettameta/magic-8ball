@@ -1,33 +1,61 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: #454545;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
+    text-align: center;
     background-color: #f8f8f8;
     background-image: url('bkgd2.png');
   }
   .page {
-    width: 80%;
+    width: 960px;
     max-width: 960px;
     margin: 0 auto;
   }
+
+/* HEADER */
+  header {
+    padding-top: 0.25em;
+    padding-left: 18px;
+  }
+
+  header span {
+    font-size: 60px;
+    color: #f16059;
+  }
+
+  /* FONTS */
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* IMG  & ANSWER */
   .ball,
   .button {
     margin: 0 auto;
     position: relative;
     width: 80%;
   }
-  .answer {
-    position: absolute;
-    width: 14%;
-    top: 47%;
-    left: 50%;
-    margin-top: -60px;
-    margin-left: -65px;
-    font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
-    color: #222;
-    text-transform: uppercase;
+
+  .button{
+    padding-left: 25px;
   }
+
+  /* JS RESULTS */
+  .answer {
+  position: absolute;
+  width: 15%;
+  top: 38%;
+  left: 44.5%;
+  bottom: 50%;
+  margin: 0;
+  font: 1em 'Open Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 600;
+  }
+
   #questionButton {
     font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
     border-radius: 5px;
@@ -38,17 +66,7 @@ body {
     display: block;
     margin: 0 auto;
   }
-  header {
-    padding-top: 0.25em;
-    text-align: center;
-  }
-  header span {
-    font-size: 60px;
-    color: #f16059;
-  }
-  h1,h2,h3,h4,h5,h6 {
-    font-family: "Montserrat", sans-serif;
-  }
+
   footer p {
     font-family: "Montserrat", sans-serif;
     text-align: center;
